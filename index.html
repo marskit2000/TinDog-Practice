@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="./index.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container">
+        <header>
+          <img class="img-icon" src="./images/icon-profile.png">
+          <img class="img-logo" src="./images/logo.png">
+          <img class="img-icon" src="./images/icon-chat.png">
+        </header>
+        <section>
+          <div class="dogs-outer-container">
+            <div class="avatar-container" id="avatar-container-next">
+                <!-- render next dogs here -->
+            </div>
+            <div class="avatar-container" id="avatar-container">
+                <!-- render current dogs here -->
+            </div>
+          </div>
+          <div class="choose-btn-container">
+            <button class="choose-btn" id="no-btn">
+              <img src="./images/icon-cross.png">
+            </button>
+            <button class="choose-btn" id="yes-btn">
+              <img src="./images/icon-heart.png">
+            </button>
+          </div>
+        </section>
+      </div>
+        <script src="./index.js" type="module"></script>
+    </body>
+</html>
